@@ -3,7 +3,7 @@ namespace Aula_6
     public partial class Form1 : Form
     {
         int n_sorteio = 0;
-        int[,] sorteio_megasenas = new int[100, 8];
+        int[,] sorteio_megasenas = new int[100, 7];
         public Form1()
         {
             InitializeComponent();
@@ -54,6 +54,8 @@ namespace Aula_6
             texto = "Sorteio " + n_sorteio + " : " + lbl_numero.Text +
                     " (Ganhadores = " + sorteio_megasenas[n_sorteio - 1, 6] + ")";
             lst_megas.Items.Add(texto);
+
+            lbl_numero.Text = "";
 
         }
     }

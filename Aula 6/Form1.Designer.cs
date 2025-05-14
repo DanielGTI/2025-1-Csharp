@@ -85,6 +85,7 @@
             num_ganhadores.Name = "num_ganhadores";
             num_ganhadores.Size = new Size(81, 29);
             num_ganhadores.TabIndex = 4;
+            num_ganhadores.TextAlign = HorizontalAlignment.Center;
             // 
             // btn_ganhadores
             // 
